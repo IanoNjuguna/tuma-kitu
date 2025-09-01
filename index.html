@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>tuma-kitu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 2em;
+			background: #f9f9f9;
+		}
+
+		h1 {
+			color: #333;
+		}
+
+		.container {
+			max-width: 400px;
+			margin: auto;
+			background: #fff;
+			padding: 2em;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px #ddd;
+		}
+
+		button {
+			display: block;
+			width: 100%;
+			margin: 1em 0;
+			padding: 0.75em;
+			font-size: 1em;
+			border-radius: 4px;
+			border: none;
+			background: #007bff;
+			color: #fff;
+			cursor: pointer;
+		}
+
+		button:disabled {
+			background: #aaa;
+		}
+
+		#output {
+			margin-top: 1em;
+			min-height: 2em;
+			color: #222;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>tuma-kitu</h1>
+		<button id="connectWalletBtn">Connect Wallet</button>
+		<button id="sendTokensBtn">Send Tokens</button>
+		<button id="getBalanceBtn">Get Balance</button>
+		<button id="withdrawTokensBtn">Withdraw Tokens</button>
+		<div id="output"></div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
